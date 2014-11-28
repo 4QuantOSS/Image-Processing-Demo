@@ -5,11 +5,6 @@ require(plyr)
 require(grid) # contains the arrow function
 require(biOps)
 
-#library(jpeg)
-#require(EBImage)
-## To install EBImage
-# source("http://bioconductor.org/biocLite.R")
-# biocLite("EBImage")
 
 # functions for converting images back and forth
 im.to.df<-function(in.img) {
